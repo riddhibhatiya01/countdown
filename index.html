@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter & Countdown</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+      <h1>Count down and Counter</h1>
+        <!-- Counter -->
+        <div class="counter">
+          <h2>Counter</h2>
+          <div class="counter-display" id="counterDisplay">0</div>
+          <button id="increase-button">Increase</button>
+          <button id="decrease-button">Decrease</button>
+          <button id="resetbtn">Reset</button>
+        </div>
+  
+        <!-- Countdown -->
+        <div class="countdown">
+          <h2>Countdown</h2>
+          <div class="countdown-display" id="countdownDisplay">10</div>
+          <input type="number" class="input-field" id="countdownInput" min="1" />
+          <button id="startbtn">Start</button>
+          <button id="stopbtn">Pause</button>
+          <button id="resetCountdownbtn">Reset</button>
+        </div>
+      </div>
+      <script src="script.js"></script>
+</body>
+</html>
